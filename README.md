@@ -79,9 +79,9 @@ output: A list of lists with the structure: [R/L][IPSI/CONTRA][trial type][perio
 # Notebook 6:
 input: notebook 5 output 
 
-output: extract a specific feature from the data on a session by session basis and save it in csv (if possible) and pickle format in a specific folder. The actual notebook output for notebook_6  are empty. This is requiered in order for the papermill notebook not to re-run notebook that were already run. 
+output: extract a specific feature from the data on a session and save it in csv (if possible) and pickle format in a specific folder. The actual notebook output for notebook_6  can be empty. This is requiered in order for the papermill notebook not to re-run notebook that were already run. 
 
-6_a: Each column is a trial and each entry response times. In a folder called timOfLicks. Only pickle format (list of lists). 
+6_a: Each column is a trial and each entry is a lick time. In a folder called timeOfLicks. also pickled format of the list of lists. 
 
 6_b: counts the number of licks in each trial type and each period. 
 
