@@ -1,10 +1,6 @@
 # optogenetics_analysis
 
 
-# optogenetics_analysis
-
-
-
 # Notebook 0:
 processing of the photometry signal pre analysis notebook - prepare to define what each trial was. 
 
