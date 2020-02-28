@@ -1,1 +1,98 @@
 # optogenetics_analysis
+
+
+# optogenetics_analysis
+
+
+
+# Notebook 0:
+processing of the photometry signal pre analysis notebook - prepare to define what each trial was. 
+
+input: mouse_dataTrial_label.xlsx (each row is a trial). 
+
+output: mouse_dateNotebook_0_a.pickle. The output is the same df as mouse_dataTrial_label with additional columns that will aid in the analysis. 
+
+0_a: standard analysis 
+
+
+
+# Notebook 1:
+Each notebook 1 gives a different list of trial numbers with the same general structure of output: 
+The number of trial: R/L, IPSI/CONTRA, TrialType. 
+
+input: the output of notebook 0_a 
+
+output: a list of lists called mouse_dateNotebook_1_label.pickle 
+you can run "a" or "b" or "c" with "d" or with "e".
+
+1_a: get all trials (with ENLp and with CUEp)
+
+1_b: get no ENLp, no CUEp trials. 
+
+1_c: get ENLp. 
+
+1_d: is optogenetics stimulation trials. 
+also takes TypeOfStim and Trials_filter that are set in the paper mill notebook. 
+Trials_filter can be either 'allTrials' or 'noENLp' or 'onlyENLp'
+TypeOfStim can be either 'ENLonly' or 'FullStim' or 'Consumption'
+you can run 1_a or 1_b or 1_c together with 1_d.
+
+1_e: is not optogenetics trials. 
+see note for 1_d. 
+you can run 1_a or 1_b or 1_c together with 1_e.
+
+# Notebook 2:
+To prepare the dataLick for analysis. 
+
+input: dataLick. 
+
+output: The output is the same df as dataLick_label with additional columns that will aid in the analysis. 
+
+2_a: standard analysis 
+
+
+# Notebook 3:
+empty
+
+
+
+# Notebook 4:
+Flagging periods of interest in order to generate neural epochs of interest. 
+
+input: Notebook 2 
+
+output: .pickle that has a data frame with two columns. The first column is the bin number and the second column is the trial number. 
+
+4_a: Reward_NoReward_tag: consumption or no rewarded period. 
+
+4_b: ENL_tag: enforced non lick period task. 
+
+4_c: Sel_tag: response time.
+
+
+# Notebook 5:
+
+input: notebook 1 (list of trial types of interest), notebook 2 (data of all the licks). 
+It also uses the flags that were generated in notebook 4s. 
+Notebook 5 also needs [Tags] which are all set in the papermill notebook. 
+
+output: A list of lists with the structure: [R/L][IPSI/CONTRA][trial type][period]. Each entry to the list is a df in which each lick in that condition is a row. A second output which is a list_of_tags in a csv file. 
+ 
+5_a: splits as described above. 
+
+# Notebook 6:
+input: notebook 5 output 
+
+output: extract a specific feature from the data on a session by session basis and save it in csv (if possible) and pickle format in a specific folder. The actual notebook output for notebook_6  are empty. This is requiered in order for the papermill notebook not to re-run notebook that were already run. 
+
+6_a: Each column is a trial and each entry response times. In a folder called timOfLicks. Only pickle format (list of lists). 
+
+6_b: counts the number of licks in each trial type and each period. 
+
+6_c: counts the number of licks (with direction) in each trial type and each period. 
+
+
+
+# Data Set Analysis notebooks: 
+
+response_times: 
