@@ -101,4 +101,4 @@ data_set_howManyTOstimTrials: how many of the stim trials were time outs
 
 data_set_howManyTO_NOstimTrials: how many of the non-stim trials were time outs
 
-
+data_set_percentStimAndNonStimTrials: how may stim trials compared to how many 3rd win trial that could have stim but did not. 
