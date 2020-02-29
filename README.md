@@ -97,3 +97,6 @@ response_times: (if there is a conidtion that does not have trials there will be
 
 data_set_lick_direction: gives back a csv with how much licks in each direction in various conditions. 
 
+data_set_howManyTOstimTrials: how many of the stim trials were time outs
+
+
