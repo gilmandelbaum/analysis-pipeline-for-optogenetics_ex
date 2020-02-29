@@ -99,4 +99,6 @@ data_set_lick_direction: gives back a csv with how much licks in each direction 
 
 data_set_howManyTOstimTrials: how many of the stim trials were time outs
 
+data_set_howManyTO_NOstimTrials: how many of the non-stim trials were time outs
+
 
