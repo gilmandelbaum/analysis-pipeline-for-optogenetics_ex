@@ -87,13 +87,13 @@ output: extract a specific feature from the data on a session and save it in csv
 
 6_c: counts the number of licks (with direction) in each trial type and each period. 
 
-
+6_d: some over lap with 6_a. Makes 
 
 # Data Set Analysis notebooks: 
 
 data_set_stimSuccessRate noteboook: gives back a csv file with the number of trials stim that worked, did not work etc. 
 
-response_times: (if there is a conidtion that does not have trials there will be an error)
+response_times: response times in ea
 
 data_set_lick_direction: gives back a csv with how much licks in each direction in various conditions. 
 
