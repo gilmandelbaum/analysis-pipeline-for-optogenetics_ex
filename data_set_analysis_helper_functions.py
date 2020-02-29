@@ -153,7 +153,7 @@ def stimSuccessRate (dataSet,Mouse_Date_FileName):
 used in data_set_response_times
 """
 
-def extract_data_set (Mouse_Date_FileName,rt_stay_right,rt_switch_right,rt_stay_left,rt_switch_left): 
+def extract_data_set_respose_time (Mouse_Date_FileName,rt_stay_right,rt_switch_right,rt_stay_left,rt_switch_left): 
     
     dfResults = pd.DataFrame(columns = ['mouse',"date","D","SideOfStim",
                                         "switchSide_switch",
