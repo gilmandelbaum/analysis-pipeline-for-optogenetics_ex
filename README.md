@@ -91,14 +91,17 @@ output: extract a specific feature from the data on a session and save it in csv
 
 # Data Set Analysis notebooks: 
 
-data_set_stimSuccessRate noteboook: gives back a csv file with the number of trials stim that worked, did not work etc. 
+how_many_stim_success_rate: gives back a csv file with the number of trials stim that worked, did not work etc. 
 
-response_times: response times in ea
+how_many_Stim_vs_3rdTrial: how may stim trials compared to how many 3rd win trial that could have stim but were not. 
 
-data_set_lick_direction: gives back a csv with how much licks in each direction in various conditions. 
+how_many_TO_NON_stim_trials: data_set_how_many_TO_NON_stim_trials.ipynb
 
-data_set_howManyTOstimTrials: how many of the stim trials were time outs
+how_many_TO_stim_trials: how many of the stim trials were time outs
 
-data_set_howManyTO_NOstimTrials: how many of the non-stim trials were time outs
+lick_direction: gives back a csv with how much licks in each direction in various conditions. 
 
-data_set_percentStimAndNonStimTrials: how may stim trials compared to how many 3rd win trial that could have stim but did not. 
+time_consumption_licks: timing of licks during stimulation
+
+time_respose: response times in each condition. 
+
