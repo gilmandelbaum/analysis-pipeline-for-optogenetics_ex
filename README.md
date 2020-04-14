@@ -2,7 +2,7 @@
 
 
 # Notebook 0:
-prepare to define what each trial was. 
+define each trial
 
 input: mouse_dataTrial_label.xlsx (each row is a trial). 
 
