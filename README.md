@@ -2,7 +2,7 @@
 
 
 # Notebook 0:
-processing of the photometry signal pre analysis notebook - prepare to define what each trial was. 
+prepare to define what each trial was. 
 
 input: mouse_dataTrial_label.xlsx (each row is a trial). 
 
