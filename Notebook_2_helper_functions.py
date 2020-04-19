@@ -35,30 +35,32 @@ state_TO = [(58, 58)]
 
 
 def get_nTrial_DataLick_list(session):
+    
     block=1
     nTrial= 0
     l=[]
     
     for row in session.iterrows(): 
+        
         (iblock, iTrial)= (row[1]["iBlock"], row[1]["iTrial"])
+        
         if iblock!=block:
             block+=1
             nTrial+=(iTrial)
             l.append((nTrial))
+            
         else:
             if iTrial>nTrial:
                 nTrial+=(iTrial-nTrial)
                 l.append((nTrial))
-
             elif iTrial<nTrial:
-                nTrial+= iTrial - (session.get_value(row[0]-1, "iTrial"))
+                nTrial+= iTrial - (session.at[row[0]-1, "iTrial"])
                 l.append((nTrial))
             else:
                 l.append((nTrial))
+                
     session["nTrial"]= l
     return session
-
-
 
 
 def tag_RealFullTrial(data_lick):
