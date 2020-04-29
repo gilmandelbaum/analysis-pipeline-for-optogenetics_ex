@@ -53,8 +53,8 @@ empty
 
 
 # Notebook 4:
-Flagging periods of interest in order to generate neural epochs of interest. 
-
+Flagging periods of interest in order to generate licks of specific interest. 
+The goal is to assign licks to a specific trial and give each lick a tag. 
 input: Notebook 2 
 
 output: .pickle that has a data frame with two columns. The first column is the bin number and the second column is the trial number. 
