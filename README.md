@@ -2,11 +2,17 @@
 
 analysis of optogenetic experiments on a two choice task. 
 It has a: (data output separated for each session)
+
 pre analysis steps (Nb_0), 
+
 define trials of interest (Nb_1), 
+
 Import lick data (Nb_2),
+
 assign licks to behavioral states (Nb_4), 
+
 form one structure with all the licks of interest(Nb_5),
+
 extract specific licks or data about specific licks per session(Nb_6),
 
 data analysis notebook(s) that runs on all the sessions. 
