@@ -14,8 +14,6 @@ This task was designed by Gil Mandelbaum and Zengcai Guo in the Sabatini Lab at 
 This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
 
-
-
 for each session:
 
 pre analysis Nb_0x
