@@ -14,7 +14,7 @@ This task was designed by Gil Mandelbaum and Zengcai Guo in the Sabatini Lab at 
 This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
 
-for each session:
+# for each session:
 
 pre analysis Nb_0x
 
@@ -118,7 +118,6 @@ output: extract a specific feature from the data on a session and save it in csv
 
 6_c: counts the number of licks (with direction) in each trial type and each period. 
 
-6_d: some over lap with 6_a. Makes 
 
 # Data Set Analysis notebooks: 
 
