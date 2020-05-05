@@ -1,6 +1,12 @@
 # optogenetics_analysis
 
-analysis of optogenetic experiments on a two choice task. 
+The design of this behavioral task for mice was inspired by operant conditioning behavioral tasks. 
+In such tasks, animals are required to make their “next” choice based on their “previous” actions and the corresponding outcomes of that action.
+
+mice were head-restrained and indicated one of two choices by licking to one of two lick-ports (‘‘lick left/lick right’’) after hearing a “go” cue. In this task, the computer selected one port as the “correct” (i.e. rewarded) port and maintained this designation before switching at random to the other port after 4 to 8 trials were rewarded. The first lick after the go cue was used to select a port and water was only delivered on the offset of this lick, motivating the animal to lick again to test if a reward was delivered (and subsequently continue licking to collect reward, if present). The optimal strategy in this task is to implement win-->repeat and lose-->switch behaviors and to avoid executing win-->switch and lose-->repeat behaviors on two consecutive trials. 
+
+This task was designed by Gil Mandelbaum and Zengcai Guo in the Svobda Lab at Janelia farms and the Sabatini Lab at Harvard Medical School. 
+
 
 for each session:
 
