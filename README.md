@@ -1,5 +1,16 @@
 # optogenetics_analysis
 
+analysis of optogenetic experiments on a two choice task. 
+It has a: (data output separated for each session)
+pre analysis steps (Nb_0), 
+define trials of interest (Nb_1), 
+Import lick data (Nb_2),
+assign licks to behavioral states (Nb_4), 
+form one structure with all the licks of interest(Nb_5),
+extract specific licks or data about specific licks per session(Nb_6),
+
+data analysis notebook(s) that runs on all the sessions. 
+
 
 # Notebook 0:
 define each trial
@@ -73,7 +84,7 @@ input: notebook 1 (list of trial types of interest), notebook 2 (data of all the
 It also uses the flags that were generated in notebook 4s. 
 Notebook 5 also needs [Tags] which are all set in the papermill notebook. 
 
-output: A list of lists with the structure: [R/L][IPSI/CONTRA][trial type][period]. Each entry to the list is a df in which each lick in that condition is a row. A second output which is a list_of_tags in a csv file. 
+output: A list of lists with the structure: [R/L][IPSI/CONTRA][trial type]{period}. Each entry to the list is a df in which each lick in that condition is a row. A second output which is a list_of_tags in a csv file. 
  
 5_a: splits as described above. 
 
