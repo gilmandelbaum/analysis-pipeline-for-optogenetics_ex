@@ -125,7 +125,7 @@ output: extract a specific feature from the data on a session and save it in csv
 
 how_many_stim_success_rate: gives back a csv file with the number of trials stim that worked, did not work etc. 
 
-how_many_Stim_vs_3rdTrial: how may stim trials compared to how many 3rd win trial that could have stim but were not. 
+how_many_Stim_vs_3rdTrial: how may stim trials compared to how many 3rd win trial that could have stim but were not.This notebook imports the data_trial_label and does the analysis based on that. 
 
 how_many_TO_NON_stim_trials: data_set_how_many_TO_NON_stim_trials.ipynb
 
