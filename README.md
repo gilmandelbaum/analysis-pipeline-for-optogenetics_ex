@@ -1,7 +1,9 @@
 # optogenetics_analysis
-This analysis package uses jupyter noteboooks. 
+This analysis package was written to support the analyis of optogenetic experiments done in the Sabatini Lab. 
 
-The notebook was tested and run using python 3.7.3. 
+It uses jupyter noteboooks (More details soon to come). 
+
+The notebooks were tested and run using python 3.7.3. 
 
 The design of this behavioral task for mice was inspired by operant conditioning behavioral tasks. 
 In such tasks, animals are required to make their “next” choice based on their “previous” actions and the corresponding outcomes of that action.
@@ -13,7 +15,7 @@ This task was designed by Gil Mandelbaum and Zengcai Guo in the Sabatini Lab at 
 This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
 
-# for each session:
+# for each session the stages of analysis are:
 
 pre analysis Nb_0x
 
