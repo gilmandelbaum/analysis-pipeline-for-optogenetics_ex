@@ -1,5 +1,5 @@
 # optogenetics_analysis
-This analysis package was written to support the analyis of optogenetic experiments done in the Sabatini Lab. 
+This analysis package was written to support the analyis of optogenetic experiments done in the Sabatini Lab at harvard medical school. 
 
 It uses jupyter noteboooks (More details soon to come). 
 
