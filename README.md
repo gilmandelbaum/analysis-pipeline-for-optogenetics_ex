@@ -1,6 +1,5 @@
 # optogenetics_analysis
 This analysis package uses jupyter noteboooks. 
-In addition, there are .py files that are loaded into the notebooks. 
 
 The notebook was tested and run using python 3.7.3. 
 
