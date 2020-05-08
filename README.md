@@ -31,6 +31,7 @@ extract specific licks or data about specific licks per session Nb_6x
 
 data analysis notebook(s) that runs on all the sessions. 
 
+all the notebooks are run together using a optogenetics_Papermill.ipynb notebook. 
 
 # Notebook 0:
 define each trial
