@@ -54,9 +54,9 @@ def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):
     
     folder_name_dict = {"0": "Nb_0x_pre_analysis",
                         "1": "Nb_1x_define_trials_of_interest",
-                        "2": "Nb_2x_import_lick_data ",
-                        "4": "Nb_4x_assign_licks_to_behavioral_states ",
-                        "5": "Nb_5x_form_one_structure_with_all_data ",
+                        "2": "Nb_2x_import_lick_data",
+                        "4": "Nb_4x_assign_licks_to_behavioral_states",
+                        "5": "Nb_5x_form_one_structure_with_all_data",
                         "6": "Nb_6x_extract_specific_information"}
     
     #generate 3 lists.
