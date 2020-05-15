@@ -1,9 +1,10 @@
 # optogenetics_analysis
-This analysis package was written to support the analyis of optogenetic experiments done in the Sabatini Lab at harvard medical school. 
+This analysis package is the first (of many!) to support the analyis of a project attempting to understand how brain allows us to chose what to do next. 
+This analysis package analyzes optogenetics experiments. 
 
-It uses jupyter noteboooks (More details soon to come). 
+It uses jupyter noteboooks and each stage of the pipeline can be run stand-alone or as part of work flow controlled by a "master notebook" that uses papermill. 
 
-The notebooks were tested and run using python 3.7.3. 
+The notebooks were tested and run using python 3.7.3. (details about env soon to come!)
 
 The design of this behavioral task for mice was inspired by operant conditioning behavioral tasks. 
 In such tasks, animals are required to make their “next” choice based on their “previous” actions and the corresponding outcomes of that action.
