@@ -19,7 +19,7 @@ This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
 Nb_0x_pre_analysis
 
-"Nb_1x_define_trials_of_interest
+Nb_1x_define_trials_of_interest
 
 Nb_2x_import_lick_data
 
