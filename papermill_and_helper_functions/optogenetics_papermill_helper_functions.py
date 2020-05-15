@@ -12,7 +12,8 @@ import papermill as pm
 
 
 
-def generate_nb_list(List_of_versions,List_of_versions_str):
+
+def make_nb_list(List_of_versions,List_of_versions_str):
     nb_list = []
     for nb,nb_str in zip(List_of_versions,List_of_versions_str):
         #print (nb_str)
@@ -36,7 +37,9 @@ def make_sequence_string(nb_seq, list_of_versions):
             for v in version:
                 string+=v
     print ("seq"+string+" "+"will be used")
-    return string
+    return (string)
+
+
 
 
 
@@ -48,6 +51,14 @@ def generate_name_and_date(Date,Mouse):
 
 
 def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):   
+    
+    folder_name_dict = {"0": "Nb_0x_pre_analysis",
+                        "1": "Nb_1x_define_trials_of_interest",
+                        "2": "Nb_2x_import_lick_data ",
+                        "4": "Nb_4x_assign_licks_to_behavioral_states ",
+                        "5": "Nb_5x_form_one_structure_with_all_data ",
+                        "6": "Nb_6x_extract_specific_information"}
+    
     #generate 3 lists.
     l_mouse = list(Mouse_Date_FileName["Mouse"]) 
     l_date_ = list(Mouse_Date_FileName.apply(lambda x: generate_date_(x["Date"]),axis=1))  
@@ -63,7 +74,7 @@ def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):
             
             notebook_number = notebook[2]
             notebook_version = notebook[-1]
-            folder_name = notebook[0:3]
+            folder_name = folder_name_dict[notebook_number]
             
             #make notebook path: 
             if notebook_number in ["0","1","2","3","4"]:
