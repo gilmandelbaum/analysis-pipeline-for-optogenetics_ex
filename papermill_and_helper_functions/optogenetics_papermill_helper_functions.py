@@ -67,7 +67,7 @@ def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):
     
     data_dir_output = dict_for_pm["data_dir_output"]
     HowManyBack = dict_for_pm["HowManyBack"]
-            
+    #these are the 3 variables that change each session (what we will call the outer loop)
     for (mouse, date_, date_and_name) in zip(l_mouse, l_date_, l_date_and_name):
         
         for notebook in nb_list: 
@@ -75,6 +75,7 @@ def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):
             notebook_number = notebook[2]
             notebook_version = notebook[-1]
             folder_name = folder_name_dict[notebook_number]
+
             
             #make notebook path: 
             if notebook_number in ["0","1","2","3","4"]:
@@ -83,6 +84,7 @@ def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):
                 notebook_path = "_seq"+seq_str[:seq_str.index('6')]
             else:
                 notebook_path = '_seq'+seq_str
+
 
             if os.path.isfile(data_dir_output+"/"+mouse+"/"+date_and_name+'/'+str(HowManyBack)+'_Back/'+mouse+"_"+date_+'Notebook_'+str(notebook_number)+'_'+notebook_version+notebook_path+'.pickle'):
                 pass
