@@ -5,7 +5,7 @@ This package analyzes optogenetics experiments.
 
 It uses jupyter noteboooks and each stage of the pipeline can be run stand-alone or as part of work flow controlled by a "master notebook" that uses papermill. 
 
-The choice of notebooks determins what analysis is done. If specific output data structures already exist based on previous runs the "master notebook" will recognize the data structures that already exist and only runs what is needed to complete the new analyses. This saves lots of time and allows to efficiently explore the data.
+The choice of notebook list determines what analysis is done (see list of notebooks below). If specific output data structures already exist based on previous runs the "master notebook" will recognize the data structures that already exist and only run what is needed to complete the new analyses. This saves lots of time and allows to efficiently explore the data.
 
 The notebooks were tested and run using python 3.7.3. (details about env soon to come!)
 
