@@ -1,5 +1,5 @@
 # optogenetics_analysis
-This package is the first (of many!) to support the analyis of a project in the Sabatini Lab in which we try to better understand how the brain allows us to chose what to do next. 
+This package is the first (of many!) to support the analyis of a project in the Sabatini Lab in which we try to better understand how the brain allows us to decide what to do next. 
 This analysis package analyzes optogenetics experiments. 
 
 It uses jupyter noteboooks and each stage of the pipeline can be run stand-alone or as part of work flow controlled by a "master notebook" that uses papermill. 
