@@ -17,19 +17,19 @@ This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
 # for each session the stages of analysis are:
 
-pre analysis Nb_0x
+Nb_0x_pre_analysis
 
-define trials of interest Nb_1x
+"Nb_1x_define_trials_of_interest
 
-Import lick data Nb_2x
+Nb_2x_import_lick_data
 
-assign licks to behavioral states Nb_4x
+Nb_4x_assign_licks_to_behavioral_states
 
-form one structure with all the licks of interest Nb_5x
+Nb_5x_form_one_structure_with_all_data
 
-extract specific licks or data about specific licks per session Nb_6x
+Nb_6x_extract_specific_information
 
-data analysis notebook(s) that runs on all the sessions. 
+data analysis notebook(s) run and combine data from all the sessions. 
 
 all the notebooks are run together using a optogenetics_Papermill.ipynb notebook. 
 
