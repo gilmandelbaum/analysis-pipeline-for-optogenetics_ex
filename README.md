@@ -5,6 +5,8 @@ This package analyzes optogenetics experiments.
 
 It uses jupyter noteboooks and each stage of the pipeline can be run stand-alone or as part of work flow controlled by a "master notebook" that uses papermill. 
 
+If changes are made to the notebooks that are run in the pipeline the "master notebook" can recognize data structures that already exist and only runs what is needed to complete the analyses. This saves lots of time and allows to efficiently explore the data.
+
 The notebooks were tested and run using python 3.7.3. (details about env soon to come!)
 
 The design of this behavioral task for mice was inspired by operant conditioning behavioral tasks. 
