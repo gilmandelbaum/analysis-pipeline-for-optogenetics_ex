@@ -82,16 +82,16 @@ def define_previous_choice_direction_same_or_not(df):
             
             if current_prev_trial == 'TO':
                 
-                df = df.set_value(row[0], ['SamePastDirection'], 3)#Time Out
+                df.at[row[0], 'SamePastDirection'] = 3#Time Out
                 
             elif direc_prev_trial=='TO':
-                df = df.set_value(row[0], ['SamePastDirection'], 3)#Time Out
+                df.at[row[0], 'SamePastDirection'] = 3#Time Out
                 
             elif current_prev_trial != 'TO':
                 if current_prev_trial == direc_prev_trial:
-                    df = df.set_value(row[0], ['SamePastDirection'], 1)#same
+                    df.at[row[0], 'SamePastDirection'] = 1#same
                 else:
-                    df = df.set_value(row[0], ['SamePastDirection'], 2)#not same 
+                    df.at[row[0], 'SamePastDirection'] = 2#not same 
 
         except:
             pass
