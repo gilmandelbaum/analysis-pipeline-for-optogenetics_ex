@@ -124,6 +124,8 @@ output: extract a specific feature from the data on a session and save it in csv
 
 6_c: counts the number of licks (with direction) in each trial type and each period. 
 
+6_d: for each lick, gives you the direction of that lick. Its runs on all the tags that have been generated. The data is stored in csv files in a folder called timeOfLicks. also pickled format of the list of lists called timeOfLicks.pickle. 
+
 
 # Data Set Analysis notebooks: 
 
