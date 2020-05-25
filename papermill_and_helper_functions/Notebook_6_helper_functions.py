@@ -224,6 +224,73 @@ def count_licks_perPeriod_with_direction_make_df(LickCount_perTrial,combination_
     return df_final
 
 
+"""
+for notebook 6_d
+"""
+
+
+def get_tStates_perTrial_per_period_df_with_direction(data):
+    BehOpto = data.copy()
+    final_list = []
+    for rl in BehOpto:
+        rl_list = []
+        for ic in rl:
+            ic_list =[]
+            for combo in ic:
+                ic_list.append(get_tStates_perTrial_per_period_df_with_direction_helper(combo))
+            rl_list.append(ic_list)
+        final_list.append(rl_list)
+        
+    return final_list
+
+
+
+def get_tStates_perTrial_per_period_df_with_direction_helper(combo): #this has the trials in columns  
+    combo_dict = dict()
+
+    for key, value in combo.items(): #combo is dict 
+        #.items seperates between the key and value in a tuple. 
+
+        #Real_nTrials_list = combo['Real_nTrials']['Real_nTrials'].unique().tolist() #Real_nTrials is both a key and
+        #a column. 
+
+        #list of real_nTrials
+        period_str = key #string with name of tag and name of column in data frame. 
+        period_data = value #the data frame itself 
+        total_ntrials_df=[] #empty list
+
+        ntrials = period_data[period_str].unique()
+        #adding trials of interest to a list
+
+        for i in ntrials:
+            total_ntrials_df.append(period_data[period_data[period_str]==i])
+            #list that cuts to smaller dfs for each trial
+        df_list = []
+
+
+        for trial_i in range(0, len(total_ntrials_df)):
+            trial = total_ntrials_df[trial_i] #each df
+            ntrial = ntrials[trial_i]
+            direction_column_name = str(ntrial) + "_d"
+            new_df = pd.DataFrame(trial[['iSpout']]).reset_index(drop=True) #from total_ntrials_df, get column 'tState'  
+            new_df.columns = [direction_column_name]   #rename tState to be nTrial (number)
+            
+            df_list.append(new_df)
+
+        list_trials_d = [str(ntrial)+"_d" for ntrial in ntrials]
+        basic_df = pd.DataFrame(columns = list_trials_d)
+        try:
+            df_AllTrials = pd.concat(df_list, axis=1)
+            df_AllTrials = pd.concat([basic_df, df_AllTrials])
+            combo_dict[period_str] = df_AllTrials
+        except:
+            combo_dict[period_str]= basic_df 
+    return combo_dict
+
+
+
+
+
 
 
 
