@@ -180,22 +180,22 @@ def extract_data_set_respose_time (Mouse_Date_FileName,rt_stay_right,rt_switch_r
         if rt_stay_right[i].empty: 
             rt_stay_right_i = 0 
         else:  
-            rt_stay_right_i = rt_stay_right[i][0].median()
+            rt_stay_right_i = rt_stay_right[i].loc[0].median()
             
         if rt_switch_right[i].empty:
             rt_switch_right_i = 0 
         else: 
-            rt_switch_right_i = rt_switch_right[i][0].median()
+            rt_switch_right_i = rt_switch_right[i].loc[0].median()
             
         if rt_stay_left[i].empty:
             rt_stay_left_i = 0 
         else:   
-            rt_stay_left_i = rt_stay_left[i][0].median()
+            rt_stay_left_i = rt_stay_left[i].loc[0].median()
         
         if rt_switch_left[i].empty:
             rt_switch_left_i = 0 
         else: 
-            rt_switch_left_i = rt_switch_left[i][0].median()
+            rt_switch_left_i = rt_switch_left[i].loc[0].median()
     
         
         
