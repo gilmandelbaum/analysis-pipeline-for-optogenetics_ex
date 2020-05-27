@@ -30,6 +30,7 @@ conda activate optogenetics_env
 cd analysis-pipeline-for-optogenetics_ex
 pip install -r requirements.txt 
 python -m ipykernel install --user --name optogenetics_env --display-name "optogenetics_env"
+jupyter notebook
 ```
 
 ## for each session the stages of analysis are:
