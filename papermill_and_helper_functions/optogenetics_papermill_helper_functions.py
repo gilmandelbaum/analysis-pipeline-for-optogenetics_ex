@@ -100,7 +100,7 @@ def run_dataset (Mouse_Date_FileName,nb_list,nb_path,seq_str,dict_for_pm):
                 dict_for_pm["date"]=date_
                 
                 print('Notebook_'+notebook_number+'_'+notebook_version+'.ipynb is being executed')
-                pm.execute_notebook(nb_path+folder_name+"/"+'Notebook_'+str(notebook_number)+'_'+notebook_version+'.ipynb', 'TestOutPut.ipynb',parameters= dict_for_pm)
+                pm.execute_notebook(nb_path+folder_name+"/"+'Notebook_'+str(notebook_number)+'_'+notebook_version+'.ipynb', 'TestOutPut.ipynb',kernel_name = "optogenetics_env", parameters= dict_for_pm,nest_asyncio=True)
     return 
 
 
