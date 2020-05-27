@@ -12,7 +12,7 @@ The design of this behavioral task for mice was inspired by operant conditioning
 
 This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
-## Getting Started
+## getting Started
 
 The optogenetics_analysis pipeline was tested using python 3.7.3. 
 
