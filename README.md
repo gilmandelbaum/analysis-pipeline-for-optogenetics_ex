@@ -15,8 +15,11 @@ This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 ## Getting Started
 
 The optogenetics_analysis pipeline was tested using python 3.7.3. 
+
 It is recommended to install in a separate conda environment. 
+
 The papermill.execute function calls upon a specific kernel called optogenetics_env. 
+
 Here are some simple commands you can run in the terminal to get going.
 
 ```sh
