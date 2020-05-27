@@ -20,7 +20,7 @@ It is recommended to install it in a separate conda environment.
 
 The papermill.execute function calls upon a specific kernel called optogenetics_env. 
 
-Here are some simple commands you can run in the terminal to get going using a local github directory.
+Here are some simple commands you can run in the terminal to get going. 
 
 ```sh
 cd github
