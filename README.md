@@ -16,11 +16,11 @@ For more details see
 
 The optogenetics_analysis pipeline was tested using python 3.7.3. 
 
-It is recommended to install in a separate conda environment. 
+It is recommended to install it in a separate conda environment. 
 
 The papermill.execute function calls upon a specific kernel called optogenetics_env. 
 
-Here are some simple commands you can run in the terminal to get going.
+Here are some simple commands you can run in the terminal to get going using a local github directory.
 
 ```sh
 cd github
