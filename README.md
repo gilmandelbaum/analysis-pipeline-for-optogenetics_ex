@@ -12,8 +12,6 @@ The design of this behavioral task for mice was inspired by operant conditioning
 For more details see
 [task description](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/blob/master/task_description.md)
 
-This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
-
 ## getting Started
 
 The optogenetics_analysis pipeline was tested using python 3.7.3. 
@@ -51,3 +49,6 @@ Nb_6x_extract_specific_information
 data analysis notebook(s) run and combine data from all the sessions. 
 
 all the notebooks are run together using a optogenetics_Papermill.ipynb notebook. 
+
+This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
+
