@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name optogenetics_env --display-name "optogenetics_env"
 ```
 
-# for each session the stages of analysis are:
+## for each session the stages of analysis are:
 
 Nb_0x_pre_analysis
 
