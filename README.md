@@ -1,6 +1,7 @@
 # optogenetics_analysis pipeline 
 
-[](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/blob/master/mouse_task.pdf)
+![](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/blob/master/mouse_task.pdf)
+
 This package is the first (of many!) to support the analysis of a project in the Sabatini Lab at Harvard Medical School in which we try to better understand how the brain allows us to decide what to do next.
 
 This package analyzes optogenetics experiments.
