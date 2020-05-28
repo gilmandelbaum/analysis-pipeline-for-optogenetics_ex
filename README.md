@@ -1,4 +1,4 @@
-# optogenetics_analysis pipeline 
+# Optogenetics_analysis pipeline 
 
 ![](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/blob/master/mouse_task.png)
 
@@ -14,7 +14,7 @@ The design of this behavioral task for mice was inspired by operant conditioning
 For more details see
 [task description](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/blob/master/task_description.md). 
 
-## getting Started
+## Getting started
 
 The optogenetics_analysis pipeline was tested using python 3.7.3. 
 
@@ -35,7 +35,7 @@ python -m ipykernel install --user --name optogenetics_env --display-name "optog
 jupyter notebook
 ```
 
-## for each session the stages of analysis are:
+## For each session the stages of analysis are:
 
 [Nb_0x_pre_analysis](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_0x_pre_analysis)
 
