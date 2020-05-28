@@ -55,5 +55,5 @@ all the notebooks run together using a [optogenetics_Papermill.ipynb notebook](h
 
 ## acknowledgments
 
-This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo in the lab of Bernardo Sabatini at Harvard Medical School.
+This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo in the lab of [Bernardo Sabatini](https://sabatini.hms.harvard.edu/) at Harvard Medical School. 
 
