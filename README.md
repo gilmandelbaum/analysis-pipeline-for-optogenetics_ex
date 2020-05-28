@@ -51,5 +51,7 @@ jupyter notebook
 
 all the notebooks run together using a [optogenetics_Papermill.ipynb notebook](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/papermill_and_helper_functions) or can be run stand alone. 
 
-This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
+##acknowledgments
+
+This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo in the lab of Bernardo Sabatini at Harvard Medical School.
 
