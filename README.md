@@ -4,7 +4,7 @@
 
 This package is the first (of many!) to support the analysis of a project in the Sabatini Lab at Harvard Medical School in which we try to better understand how the brain allows us to decide what to do next.
 
-This package is written to analyze optogenetics experiments but can also analyze the mice behavior without optogenetic perturbations. 
+This package is written to analyze optogenetics experiments but can also be used to analyze the mice behavior without optogenetic perturbations. 
 
 It uses jupyter noteboooks and each stage of the pipeline can be run stand-alone or as part of work flow controlled by one "master jupyter notebook" that uses the [papermill](https://papermill.readthedocs.io/en/latest/) library to control all the notebooks in the pipeline. 
 
