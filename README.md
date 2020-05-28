@@ -4,8 +4,6 @@ This package is the first (of many!) to support the analysis of a project in the
 
 It uses jupyter noteboooks and each stage of the pipeline can be run stand-alone or as part of work flow controlled by one "master jupyter notebook" that uses the [papermill](https://papermill.readthedocs.io/en/latest/) library to control all the notebooks in the pipeline. 
 
-![](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/blob/master/mouse_task.png)
-
 This package is written to analyze optogenetics experiments but can also be used to analyze the mice behavior without optogenetic perturbations. The choice of notebook will determine what pipeline/analysis will be executed. If specific output data structures already exist based on previous runs of the pipeline the "master jupyter notebook" will recognize those data structures and only run what is needed to complete the new analyses. This saves lots of time and allows to efficiently explore the data.
 
 The design of this behavioral task for mice was inspired by operant conditioning behavioral tasks. 
