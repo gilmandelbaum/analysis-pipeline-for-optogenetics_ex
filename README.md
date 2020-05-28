@@ -35,7 +35,7 @@ jupyter notebook
 
 ## for each session the stages of analysis are:
 
-[Nb_0x_pre_analysis](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_0x_pre_analysis)
+[Nb_0x_pre_analysis] (https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_0x_pre_analysis)
 
 [Nb_1x_define_trials_of_interest] (https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_1x_define_trials_of_interest)
 
