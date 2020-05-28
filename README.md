@@ -39,20 +39,17 @@ jupyter notebook
 
 [Nb_1x_define_trials_of_interest](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_1x_define_trials_of_interest)
 
+[Nb_2x_import_lick_data](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_2x_import_lick_data)
 
-()
+[Nb_4x_assign_licks_to_behavioral_states](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_4x_assign_licks_to_behavioral_states)
 
-[Nb_2x_import_lick_data]https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_2x_import_lick_data
+[Nb_5x_form_one_structure_with_all_data](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_4x_assign_licks_to_behavioral_states)
 
-Nb_4x_assign_licks_to_behavioral_states
+[Nb_6x_extract_specific_information](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_6x_extract_specific_information)
 
-Nb_5x_form_one_structure_with_all_data
+[data analysis notebook(s)](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_data_set) run and combine data from all the sessions. 
 
-Nb_6x_extract_specific_information
-
-data analysis notebook(s) run and combine data from all the sessions. 
-
-all the notebooks are run together using a optogenetics_Papermill.ipynb notebook. 
+all the notebooks are run together using a [optogenetics_Papermill.ipynb notebook](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/papermill_and_helper_functions). 
 
 This analysis package was written by Gil Mandelbaum and Maria Diaz Bobillo.
 
