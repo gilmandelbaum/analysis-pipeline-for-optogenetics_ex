@@ -33,6 +33,8 @@ jupyter notebook
 
 ## For each session the stages of analysis are:
 
+Nb stands for notebooks. The number refers to when the notebook will be exected in the pipeline. The x after each number stands for the version of the notebook. For example, one can run a seq of notebooks: 0a1a1d2a4a4b4c5a6a. 
+
 [Nb_0x_pre_analysis](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_0x_pre_analysis)
 
 [Nb_1x_define_trials_of_interest](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_1x_define_trials_of_interest)
