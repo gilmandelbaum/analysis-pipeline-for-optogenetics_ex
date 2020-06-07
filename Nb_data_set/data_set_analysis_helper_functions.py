@@ -549,6 +549,7 @@ def generating_data_set_consumption_times_2 (Mouse_Date_FileName,df_list,conditi
 
 
 
+
 def extract_data_set_consumption_directions (Mouse_Date_FileName,
                                         Reward_NoReward_stay_right_directions,
                                         Reward_NoReward_switch_right_directions,
@@ -672,15 +673,15 @@ def extract_data_set_consumption_directions (Mouse_Date_FileName,
                 NOswitchSide_Stay_ratio = Reward_NoReward_stay_right_i_l/NOswitchSide_Stay_total
                 
             elif sideOfStim =="L":
-            
-                switchSide_switch_contra = Reward_NoReward_switch_right_i_r
-                switchSide_switch_ipsi = Reward_NoReward_switch_right_i_l
-                switchSide_switch_total = Reward_NoReward_switch_right_i_r+Reward_NoReward_switch_right_i_l
-                switchSide_switch_ratio = Reward_NoReward_switch_right_i_r/switchSide_switch_total
-                switchSide_Stay_contra = Reward_NoReward_stay_left_i_r
-                switchSide_Stay_ipsi = Reward_NoReward_stay_left_i_l
-                switchSide_Stay_total=Reward_NoReward_stay_left_i_r+Reward_NoReward_stay_left_i_l
-                switchSide_Stay_ratio=Reward_NoReward_stay_left_i_r/switchSide_Stay_total
+                
+                switchSide_switch_contra = Reward_NoReward_switch_left_i_r
+                switchSide_switch_ipsi = Reward_NoReward_switch_left_i_l
+                switchSide_switch_total = Reward_NoReward_switch_left_i_r+Reward_NoReward_switch_left_i_l
+                switchSide_switch_ratio = Reward_NoReward_switch_left_i_r/switchSide_switch_total
+                switchSide_Stay_contra = Reward_NoReward_stay_right_i_r
+                switchSide_Stay_ipsi = Reward_NoReward_stay_right_i_l
+                switchSide_Stay_total=Reward_NoReward_stay_right_i_r+Reward_NoReward_stay_right_i_l
+                switchSide_Stay_ratio=Reward_NoReward_stay_right_i_r/switchSide_Stay_total
                 
                 NOswitchSide_switch_contra = Reward_NoReward_switch_right_i_r
                 NOswitchSide_switch_ipsi = Reward_NoReward_switch_right_i_l
@@ -713,6 +714,8 @@ def extract_data_set_consumption_directions (Mouse_Date_FileName,
         data_list.append(dfResults)
        
     return (data_list)
+
+
 
 
 
