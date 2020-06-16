@@ -46,7 +46,7 @@ Nb stands for notebooks. The number refers to when the notebook will be exected 
 
 [Nb_4x_assign_licks_to_behavioral_states](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_4x_assign_licks_to_behavioral_states)
 
-[Nb_5x_form_one_structure_with_all_data](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_4x_assign_licks_to_behavioral_states)
+[Nb_5x_form_one_structure_with_all_data](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_5x_form_one_structure_with_all_data)
 
 [Nb_6x_extract_specific_information](https://github.com/gilmandelbaum/analysis-pipeline-for-optogenetics_ex/tree/master/Nb_6x_extract_specific_information)
 
